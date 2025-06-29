@@ -1,0 +1,18 @@
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /?s=
+Disallow: /search/
+
+Sitemap: https://mainstreetedge.ai/sitemap_index.xml
